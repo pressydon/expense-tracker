@@ -1,0 +1,299 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+header{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 29, 12);
+    
+}
+.span{
+    
+    color: brown;
+    
+}
+.input-forms{
+    text-align: center;
+    
+}
+.input-forms h3{
+    padding-top: 10px;
+    color: rgb(77, 45, 27);
+}
+.addForm{
+    padding-top: -10px;
+    margin-top: -15px;
+    background: cadetblue;
+    height: 200px;
+}
+.name input{
+    
+    width: 600px;
+    height: 25px;
+}
+.name{
+    padding-top: 30px;
+}
+.form-below{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.form-below input{
+    height: 25px;
+    margin-right: 20px;
+}
+.addForm button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    border: none;
+    color: rgb(10, 10, 44);
+    cursor: pointer;
+}
+table, th, td{
+    text-align: center;
+    width:600px;
+    margin-top: 40px;
+    justify-content: center;
+}
+table{
+    text-align: center;
+    justify-content: center;
+    left:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    font-size: 20px;
+}
+table button{
+    border:none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: red;
+}
+.total-btn button{
+    border: 1px;
+    padding: 10px 20px;
+    background: white;
+    border-style: solid;
+    border-radius: 20px;
+}
+.result span{
+    font-size: 20px;
+    color: darkred;
+}
+
+.budget-buttons{
+    padding: 10px;
+    background:cadetblue ;
+    margin-bottom: 30px;
+    text-align: end;
+    display: grid;
+
+}
+
+.edit-box{
+    padding: 10px;
+    background:cadetblue ;
+    margin-bottom: 30px;
+    text-align: end;
+    /* display: grid; */
+    display: none;
+
+}
+.edit-box input{
+    height: 30px;
+    background: rgb(247, 247, 248);
+    border: none;
+    border-radius: 10px;
+}
+.budget-buttons button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(120, 144, 223);
+    color:white;
+     justify-self: right;
+    display: none;
+    
+}
+.budget-buttons input{
+    height: 30px;
+    background: rgb(247, 247, 248);
+    border: none;
+    border-radius: 10px;
+    
+}
+.budget-input{
+    font-size: 30px;
+    color: cornsilk;
+    
+
+}
+.edit-budget{
+    font-size: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px ;
+    background-color: rgb(17, 51, 40);
+    
+}
+.edit-box button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(120, 144, 223);
+    color:white;
+     justify-self: right;
+    display: none;
+    
+}
+.feedback{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+.green{
+    width: 30px;
+    height: 10px;
+    background: green;
+}
+.red{
+    width: 30px;
+    height: 10px;
+    background: red;  
+}
+
+
+@media  screen and (max-width:781px) {
+    header{
+        font-size: 15px;
+        float: left;
+        
+    }
+    .budget-buttons{
+       align-items: center;
+       text-align: center;
+       max-width:350px;
+       margin: auto;
+       margin-bottom: 20px;
+       height: 50px;
+       border-radius: 10px;
+       background: rgb(22, 53, 54);
+       margin-top: 50px;
+       height: 100px;
+    }
+    .edit-box{
+        align-items: center;
+        text-align: center;
+        max-width:350px;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(22, 53, 54);
+        margin-top: 50px;
+        height: 100px;
+    }
+    .edit-box input{
+        margin-top: 10px;
+    }
+    .budget-buttons input{
+        margin-top: 10px;
+    }
+    .input-forms h3{
+        padding-bottom: -10px;
+        margin-bottom: -3px;
+        display: none;
+    }
+    .addForm{
+        max-width: 700px;
+        text-align: center;
+        align-items: center;
+        background: rgb(22, 53, 54);
+        color: white;
+        height: 250px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 70px;
+        font-size: 20px;
+        
+    }
+    .name input{
+    
+        max-width: 450px;
+        height: 25px;
+    }
+    .addForm input{
+        height: 40px;
+    }
+    table{
+        background: rgba(180,180,180,0.1);
+        min-height: 100px;
+        border-radius: 10px;
+        box-shadow: 2px 5px 5px rgba(21, 24, 24, 0.1);
+    }
+    .edit-budget{
+        float: right;
+        margin-top: -44px;
+        
+    }
+    .total-btn button{
+        margin-top: 10px;
+    }
+}
+@media  screen and (max-width:633px){
+    .container{
+        background: linear-gradient(to left, rgb(97, 210, 214),rgba(22,53,54,0.5));
+        height: 100vh;
+    }
+    header{
+        font-size: 10px;
+        
+    }
+    .budget-buttons{
+        width: 250px;
+        height: 100px;
+        background: linear-gradient(to left, rgba(22, 53, 54,1),rgba(22,53,54,0.5));
+        border-radius: 50px;
+    }
+    .edit-box{
+        width: 250px;
+        height: 100px;
+        background: linear-gradient(to left, rgba(22, 53, 54,1),rgba(22,53,54,0.5));
+        border-radius: 50px;
+    }
+    .budget-input{
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+        
+    }
+    .edit-budget{
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        margin-top: -10px ;
+        background-color: rgb(17, 51, 40);
+    }
+    .addForm {
+        background: linear-gradient(to right, rgba(22, 53, 54,1),rgba(22,53,54,0.5));
+    }
+    .addForm input{
+        background: rgba(250,250,250,0.5);
+        border-radius: 20px;
+        border: none;
+    }
+}
